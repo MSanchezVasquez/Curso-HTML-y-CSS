@@ -1,0 +1,15 @@
+.box {
+  padding: 50px;
+  background: rgb(9, 70, 89);
+  margin: 20px;
+  margin-left: 100px;
+  text-align: center;
+  color: #fff;
+  border-top: 2px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: hwb(240 0% 99%);
+}
