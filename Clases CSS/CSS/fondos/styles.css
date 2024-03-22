@@ -1,0 +1,18 @@
+body {
+  background-color: green;
+}
+
+.box {
+  width: 100%;
+  height: 100px;
+  margin: 20px;
+  margin: 0;
+  background-color: #f3e;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSO7UgBKiaQVTFCJeiV0MqtMiOIfeDT7h2u9w&usqp=CAU)
+    top / cover fixed #6fa;
+}
+.opaco {
+  height: 100%;
+  width: 100%;
+  background-color: #000a;
+}

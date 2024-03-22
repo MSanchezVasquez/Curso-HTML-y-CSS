@@ -1,0 +1,37 @@
+body {
+  background-color: #110e41;
+  margin: 0;
+}
+
+.box1 {
+  width: 300px;
+  height: 400px;
+  background: linear-gradient(to bottom, transparent, #000a);
+  margin: 0;
+  border-radius: 7px;
+  margin: auto;
+  margin-top: 20px;
+  border-top: 6px solid white;
+}
+#title1 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+.box2 {
+  width: 300px;
+  height: 400px;
+  background: radial-gradient(transparent, #000a);
+  margin: 0;
+  border-radius: 7px;
+  margin: auto;
+  margin-top: 20px;
+  border-top: 6px solid white;
+}
+#title2 {
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
