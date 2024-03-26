@@ -1,0 +1,22 @@
+body {
+  background-color: #333;
+  color: #ddd;
+  font-family: "Courier New", Courier, monospace;
+}
+
+details {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  padding: 9px;
+  font-size: 0.7em;
+  color: #aaa;
+}
+
+summary {
+  background-color: transparent;
+  font-size: 1em;
+  color: #ddd;
+}
+ul {
+  font-weight: bold;
+}
