@@ -1,0 +1,39 @@
+/*Termina con*/
+/*img[src$="jpeg"] {
+  width: 100%;
+}*/
+
+/*Arranca con*/
+img[src^="/images/moi"] {
+  width: 100%;
+}
+
+ul li {
+  /*El li es hijo de ul*/
+  color: gray;
+}
+
+ul strong {
+  /*El strong es nieto de ul*/
+  color: #000;
+}
+
+ul > strong {
+  /*El strong tiene que ser hijo de ul*/
+  color: orange;
+}
+
+/*SELECTOR ADYACENTE*/
+h1 + p {
+  color: blue;
+}
+h1 + p + p + ul {
+  background-color: burlywood;
+}
+
+/*SELECTOR DE HERMANOS GENERALES*/
+h1 ~ p {
+  color: blueviolet;
+}
+
+
