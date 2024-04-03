@@ -1,0 +1,19 @@
+body {
+  color: brown;
+  font-family: sans-serif;
+}
+
+div {
+  color: black;
+  font-family: "Courier New", Courier, monospace;
+  background-color: chocolate;
+  width: 50%;
+  border: 2px solid black;
+  border-radius: 8px;
+  text-align: center;
+}
+h1,
+p {
+  margin-top: 2px;
+  text-decoration: underline;
+}
