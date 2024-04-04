@@ -1,0 +1,71 @@
+:root {
+  color: gray;
+}
+
+h1 {
+  color: #48e;
+  font-family: "Courier New", Courier, monospace;
+  margin: 30px;
+}
+
+/*CUANDO PASAMOS EL MOUSE POR ENCIMA DE H1*/
+h1:hover {
+  color: #000;
+  background-color: #ccc;
+}
+
+/*MIENTRAS SE ESTE CLICKEANDO H1*/
+h1:active {
+  color: #fff;
+  background-color: blue;
+}
+
+/*SELECCIONANDO EL PRIMER LI*/
+li:first-child {
+  color: red;
+}
+
+/*SELECCIONANDO EL SEGUNDO LI*/
+li:nth-child(2) {
+  color: green;
+}
+
+/*SELECCIONANDO EL ULTIMO LI*/
+li:last-child {
+  color: blue;
+}
+
+div {
+  border: 2px solid black;
+}
+
+/*SELECCIONANDO EL DIV EN CASO DE ESTAR VACIO*/
+div:empty {
+  border: none;
+}
+
+input[type="checkbox"] {
+  margin: 20px;
+}
+
+input[type="checkbox"]:checked {
+  margin: 0px;
+}
+
+/*SELECCIONANDO ENLACES NO VISITADOS*/
+a:link {
+  color: red;
+}
+/*SELECCIONANDO ENLACES VISITADOS*/
+a:visited {
+  color: green;
+}
+
+/*SELECCIONANDO INPUTS VALIDOS */
+input:invalid {
+  color: red;
+}
+/*SELECCIONANDO INPUTS INVALIDOS*/
+input:valid {
+  color: green;
+}

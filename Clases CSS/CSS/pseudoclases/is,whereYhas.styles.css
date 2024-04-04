@@ -1,0 +1,18 @@
+.elemento1,
+.elemento2,
+.elemento3 {
+  color: blueviolet;
+}
+
+:is(.elemento1, .elemento2, .elemento3) {
+  color: blue;
+}
+
+section :where(.elemento1, .elemento2, .elemento3) {
+  color: green;
+}
+
+section:has(.elemento1, .elemento2, .elemento3) {
+  background-color: black;
+  color: aliceblue;
+}
