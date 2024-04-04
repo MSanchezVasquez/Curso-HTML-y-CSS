@@ -1,0 +1,63 @@
+h1:hover {
+  color: blue;
+}
+
+ul {
+  background-color: blanchedalmond;
+  width: 50%;
+}
+
+a:link {
+  color: red;
+}
+a:visited {
+  color: green;
+}
+
+label:has(input:valid) {
+  color: yellow;
+}
+
+label:has(input:invalid) {
+  color: red;
+}
+
+/*PSEUDOELEMENTOS*/
+div {
+  padding: 20px;
+  background-color: cadetblue;
+  width: 50%;
+  margin: 8px;
+}
+h1::first-letter {
+  color: red;
+  font-size: 3em;
+  letter-spacing: -8px;
+}
+
+div::first-line {
+  color: red;
+}
+
+div::selection {
+  background-color: brown;
+  color: aliceblue;
+}
+
+input::placeholder {
+  color: green;
+}
+
+li::marker {
+  color: red;
+}
+
+li::before {
+  content: "Elemento: ";
+  color: red;
+}
+
+li::after {
+  content: " Despues. ";
+  color: blue;
+}
