@@ -1,0 +1,29 @@
+h1:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+h1 {
+  border: 2px solid black;
+  padding: 7px;
+  text-align: center;
+}
+
+.lista {
+  border: 2px solid gray;
+}
+.lista--vieja {
+  opacity: 0.3;
+  background-color: #ddd;
+}
+.lista__item {
+  color: grey;
+  margin: 20px 0;
+  list-style: square;
+}
+.item--danino {
+  color: red;
+}
+.item--importante {
+  color: blue;
+}
