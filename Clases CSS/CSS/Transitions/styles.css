@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.box {
+  width: 120px;
+  height: 120px;
+  background-color: #f00;
+  margin-top: 60px;
+  transition-property: left;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 2s;
+  /*transition: left 1s cubic-bezier(0.17, 0.67, 0.83, 0.67) 2s;*/
+  color: red;
+  position: relative;
+  left: 0;
+}
+
+/*.box:hover {
+  background-color: blue;
+  color: #fff;
+  margin-top: 20px;
+}*/
+
+body:hover .box {
+  left: 400px;
+}
