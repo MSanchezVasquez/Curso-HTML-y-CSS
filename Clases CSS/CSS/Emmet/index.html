@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EMMET</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    lorem
+    <!--Emmet Abreviation - Resultado: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae adipisci, eos voluptates blanditiis quam veritatis architecto tenetur magni asperiores nemo exercitationem totam earum quia quibusdam rerum. Necessitatibus assumenda quisquam deleniti.-->
+
+    ul>li
+    <!--Emmet Abreviation - Resultado:  
+      <ul>
+        <li></li>
+      </ul>
+    -->
+
+    ul>li>a
+    <!--Emmet Abreviation - Resultado:  
+      <ul>
+        <li><a href=""></a></li>
+      </ul>
+    -->
+
+    <ul>
+      li*4>a
+      <!--Emmet Abreviation - Resultado:
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      -->
+    </ul>
+
+    ul>li*4>a
+    <!--Emmet Abreviation - Resultado: 
+    <ul>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+      <li><a href=""></a></li>
+    </ul>
+    -->
+
+    ul>li*4>a.link
+    <!--Emmet Abreviation - Resultado:
+      <ul>
+      <li><a href="" class="link"></a></li>
+      <li><a href="" class="link"></a></li>
+      <li><a href="" class="link"></a></li>
+      <li><a href="" class="link"></a></li>
+    </ul>
+    -->
+
+    header.header>nav.header-nav>ul.header-ul>li.list-item*4>a.link
+    <!--Emmet Abreviation - Resultado:
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+        </ul>
+      </nav>
+    </header>
+    -->
+
+    header.header>nav.header-nav>ul.header-ul>li.list-item*4>a.link{Link $}
+    <!--Emmet Abreviation - Resultado:
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li class="list-item"><a href="" class="link">Link 1</a></li>
+          <li class="list-item"><a href="" class="link">Link 2</a></li>
+          <li class="list-item"><a href="" class="link">Link 3</a></li>
+          <li class="list-item"><a href="" class="link">Link 4</a></li>
+        </ul>
+      </nav>
+    </header>
+    -->
+    fullheader
+    <!--SNIPPET-->
+    <header class="header">
+      <nav class="header-nav">
+        <ul class="header-ul">
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+          <li class="list-item"><a href="" class="link"></a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>

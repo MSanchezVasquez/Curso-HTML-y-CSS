@@ -1,0 +1,7 @@
+header {
+  margin: 10px; /*Emmet Abreviation: m10*/
+  margin: 10%; /*Emmet Abreviation: m10p*/
+  margin: 10em; /*Emmet Abreviation: m10e*/
+  margin: 10px 10px; /*Emmet Abreviation: m10-10*/
+  margin: 10% 10px; /*Emmet Abreviation: m10p-10*/
+}
