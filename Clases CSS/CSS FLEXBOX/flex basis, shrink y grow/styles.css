@@ -24,13 +24,17 @@ body {
   font-size: 40px;
   text-align: center;
   direction: rtl;
-  width: 100px;
+  width: 200px;
+  /*flex-grow: 1;*/
+  /*flex-shrink: 1;*/
 }
 
 .flex-item:first-child {
   background-color: #f77;
-  order: 1;
+  /*flex-grow: 2;*/
+  /*flex-shrink: 3;*/
 }
 .flex-item:last-child {
   background-color: black;
+  /*flex-grow: 3;*/
 }
