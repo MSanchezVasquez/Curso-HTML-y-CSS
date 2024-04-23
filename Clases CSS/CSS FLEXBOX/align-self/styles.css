@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #ccc;
+}
+
+div,
+body {
+  box-sizing: border-box;
+}
+.flexbox {
+  display: flex;
+  flex-flow: row wrap; /*Es una abreviacion de flex-direction y flex-wrap*/
+  border: 2px solid #000;
+  margin: 20px;
+  height: 300px;
+  align-items: center;
+}
+.flex-item:nth-child(2n) {
+  background-color: #f77;
+}
+.flex-item {
+  background-color: #800;
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  flex: 1 1 100px;
+}
+
+.flex-item:last-child {
+  background-color: black;
+  /*flex-grow: 3;*/
+  align-self: stretch;
+}
+.item-5 {
+  align-self: stretch;
+}
